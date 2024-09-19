@@ -1,0 +1,69 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: #2F4F4F;
+}
+
+.container-fluid {
+    max-width: 700px;
+    padding: 20px;
+    background-color: #f1e9ed;
+    background-image: url("https://static.vecteezy.com/system/resources/thumbnails/006/691/887/small/yellow-question-mark-background-with-text-space-quiz-symbol-vector.jpg");
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    font-size: 25px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    position: relative;
+}
+
+.timer {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+label {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 8px 20px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 18px;
+    cursor: grab;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #323ccd;
+}
+
+.btn-success {
+    background-color: #323ccd;
+}
+
+
+.card{
+    background-color: papayawhip ;
+}
